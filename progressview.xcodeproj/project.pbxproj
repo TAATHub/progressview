@@ -81,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D02ED7B296E7B3000F02C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D02ED77296E7ADF00F02C81 /* ActivityIndicator.swift */,
+				1D02ED79296E7B0000F02C81 /* ActivityIndicatorView.swift */,
+				1D02ED71296E79FA00F02C81 /* CircularProgressView.swift */,
+				1D80D41F296E788800E0B050 /* ContentView.swift */,
+				1D02ED75296E7A9A00F02C81 /* GaugeProgressView.swift */,
+				1D02ED73296E7A5C00F02C81 /* LinearProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1D80D411296E788800E0B050 = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +117,10 @@
 		1D80D41C296E788800E0B050 /* progressview */ = {
 			isa = PBXGroup;
 			children = (
+				1D02ED7B296E7B3000F02C81 /* View */,
 				1D80D41D296E788800E0B050 /* progressviewApp.swift */,
-				1D02ED71296E79FA00F02C81 /* CircularProgressView.swift */,
-				1D80D41F296E788800E0B050 /* ContentView.swift */,
-				1D02ED75296E7A9A00F02C81 /* GaugeProgressView.swift */,
-				1D02ED73296E7A5C00F02C81 /* LinearProgressView.swift */,
 				1D80D421296E788B00E0B050 /* Assets.xcassets */,
 				1D80D423296E788B00E0B050 /* Preview Content */,
-				1D02ED77296E7ADF00F02C81 /* ActivityIndicator.swift */,
-				1D02ED79296E7B0000F02C81 /* ActivityIndicatorView.swift */,
 			);
 			path = progressview;
 			sourceTree = "<group>";
