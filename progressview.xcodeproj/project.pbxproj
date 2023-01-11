@@ -10,6 +10,8 @@
 		1D02ED72296E79FA00F02C81 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02ED71296E79FA00F02C81 /* CircularProgressView.swift */; };
 		1D02ED74296E7A5C00F02C81 /* LinearProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02ED73296E7A5C00F02C81 /* LinearProgressView.swift */; };
 		1D02ED76296E7A9A00F02C81 /* GaugeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02ED75296E7A9A00F02C81 /* GaugeProgressView.swift */; };
+		1D02ED78296E7ADF00F02C81 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02ED77296E7ADF00F02C81 /* ActivityIndicator.swift */; };
+		1D02ED7A296E7B0000F02C81 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02ED79296E7B0000F02C81 /* ActivityIndicatorView.swift */; };
 		1D80D41E296E788800E0B050 /* progressviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80D41D296E788800E0B050 /* progressviewApp.swift */; };
 		1D80D420296E788800E0B050 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D80D41F296E788800E0B050 /* ContentView.swift */; };
 		1D80D422296E788B00E0B050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D80D421296E788B00E0B050 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		1D02ED71296E79FA00F02C81 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		1D02ED73296E7A5C00F02C81 /* LinearProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressView.swift; sourceTree = "<group>"; };
 		1D02ED75296E7A9A00F02C81 /* GaugeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeProgressView.swift; sourceTree = "<group>"; };
+		1D02ED77296E7ADF00F02C81 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		1D02ED79296E7B0000F02C81 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		1D80D41A296E788800E0B050 /* progressview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = progressview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D80D41D296E788800E0B050 /* progressviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressviewApp.swift; sourceTree = "<group>"; };
 		1D80D41F296E788800E0B050 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				1D02ED73296E7A5C00F02C81 /* LinearProgressView.swift */,
 				1D80D421296E788B00E0B050 /* Assets.xcassets */,
 				1D80D423296E788B00E0B050 /* Preview Content */,
+				1D02ED77296E7ADF00F02C81 /* ActivityIndicator.swift */,
+				1D02ED79296E7B0000F02C81 /* ActivityIndicatorView.swift */,
 			);
 			path = progressview;
 			sourceTree = "<group>";
@@ -270,7 +276,9 @@
 				1D02ED72296E79FA00F02C81 /* CircularProgressView.swift in Sources */,
 				1D02ED74296E7A5C00F02C81 /* LinearProgressView.swift in Sources */,
 				1D80D41E296E788800E0B050 /* progressviewApp.swift in Sources */,
+				1D02ED78296E7ADF00F02C81 /* ActivityIndicator.swift in Sources */,
 				1D02ED76296E7A9A00F02C81 /* GaugeProgressView.swift in Sources */,
+				1D02ED7A296E7B0000F02C81 /* ActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
