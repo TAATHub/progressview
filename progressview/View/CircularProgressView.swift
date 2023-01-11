@@ -23,6 +23,7 @@ struct CircularProgressView: View {
                 .scaleEffect(1.2)
         }
         .padding()
+        .navigationTitle("CircularProgressView")
     }
 }
 

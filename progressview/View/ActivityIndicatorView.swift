@@ -10,6 +10,7 @@ import SwiftUI
 struct ActivityIndicatorView: View {
     var body: some View {
         ActivityIndicator()
+            .navigationTitle("ActivityIndicatorView")
     }
 }
 

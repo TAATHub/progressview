@@ -23,6 +23,7 @@ struct LinearProgressView: View {
                 .tint(Color.orange)
         }
         .padding()
+        .navigationTitle("LinearProgressView")
         .onReceive(timer) { _ in
             progress += 0.05
             // 計算誤差をなくすために有効桁数を小数点以下第2位までとする

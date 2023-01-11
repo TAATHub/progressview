@@ -16,6 +16,8 @@ struct ContentView: View {
                 NavigationLink("GaugeProgressView", destination: { GaugeProgressView() })
                 NavigationLink("ActivityIndicatorView", destination: { ActivityIndicatorView() })
             }
+            .navigationTitle("ProgressView")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
